@@ -2,9 +2,6 @@ from flask import Flask, jsonify, request
 # from aws_controller import *
 import aws_controller
 
-
-music = [{'id' : 1, 'name': 'nirvana'}, {'id' : 2, 'name': 'green day'}]
-
 app = Flask(__name__)
 
 @app.route('/')
